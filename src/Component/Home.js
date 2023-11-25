@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import tech from './tech.jpg'
 import fit from './fit.jpg'
 import jujutsu from './jujutsu.webp'
