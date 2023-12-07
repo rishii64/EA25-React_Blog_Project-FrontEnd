@@ -8,7 +8,7 @@ export default function CommonBlog() {
   const path = useLocation().pathname
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/blog${path}`)
+    axios.get(`https://reactblogbackend-ih05.onrender.com/blog${path}`)
       .then((response) => {
         setData(response.data);
         setLoading(false)

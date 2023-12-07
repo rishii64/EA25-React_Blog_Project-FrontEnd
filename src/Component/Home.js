@@ -11,7 +11,7 @@ export default function Home() {
   const [blogData, setBlogData] = useState([])
   useEffect(() => {
     setLoading(true)
-    axios.get(`http://localhost:5000/`)
+    axios.get(`https://reactblogbackend-ih05.onrender.com`)
       .then((response) => {
         setBlogData(response.data);
         setLoading(false)
